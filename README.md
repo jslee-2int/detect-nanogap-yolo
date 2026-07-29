@@ -452,4 +452,3 @@ python auto_annotate.py
 ## 라이선스
 
 이 저장소에 별도 LICENSE 파일이 없다면, 사용하는 **Ultralytics YOLO** 및 **Label Studio** 각각의 라이선스를 따릅니다.
-`)
