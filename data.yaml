@@ -1,0 +1,9 @@
+# 로컬에서 train/val 경로를 환경에 맞게 수정하세요.
+# 예: C:/Pycode/detect_ng_training/datasets/dataset/images/train/
+
+train: datasets/dataset/images/train/
+val: datasets/dataset/images/val/
+
+nc: 1  # 클래스 개수
+names: ['nanogap']  # 클래스 이름들
+max_det: 5000

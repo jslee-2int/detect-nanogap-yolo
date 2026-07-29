@@ -1,0 +1,52 @@
+# --- SEM / 이미지 (보안: GitHub에 올리지 않음) ---
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.gif
+*.webp
+
+# --- 원본·전처리·데이터셋·학습 산출물 ---
+raw_img/
+resized_img/
+datasets/
+runs/
+img/
+
+# --- 모델 가중치 (용량·재배포) ---
+*.pt
+*.onnx
+*.engine
+
+# --- 대용량·로컬 산출물 ---
+output.json
+output.jpg
+image1.jpg
+*.zip
+
+# --- Python / 환경 ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.venv-ls/
+venv/
+env/
+*.egg-info/
+.Python
+dist/
+build/
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Label Studio 로컬 데이터 ---
+.label-studio/
+label-studio-data/

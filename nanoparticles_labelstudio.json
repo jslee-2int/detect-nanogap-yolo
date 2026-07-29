@@ -1,0 +1,61 @@
+[
+    {
+        "data": {
+            "image": "image.png"
+        },
+        "annotations": [
+            {
+                "result": [
+                    {
+                        "id": "0",
+                        "type": "rectangle",
+                        "value": {
+                            "x": 3.466796875,
+                            "y": 96.09375,
+                            "width": 0.439453125,
+                            "height": 0.9114583333333334,
+                            "rotation": 0
+                        },
+                        "to_name": "image",
+                        "from_name": "label",
+                        "image_rotation": 0,
+                        "original_width": 2048,
+                        "original_height": 1536
+                    },
+                    {
+                        "id": "1",
+                        "type": "rectangle",
+                        "value": {
+                            "x": 99.609375,
+                            "y": 13.020833333333334,
+                            "width": 0.048828125,
+                            "height": 0.06510416666666666,
+                            "rotation": 0
+                        },
+                        "to_name": "image",
+                        "from_name": "label",
+                        "image_rotation": 0,
+                        "original_width": 2048,
+                        "original_height": 1536
+                    },
+                    {
+                        "id": "2",
+                        "type": "rectangle",
+                        "value": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "width": 100.0,
+                            "height": 100.0,
+                            "rotation": 0
+                        },
+                        "to_name": "image",
+                        "from_name": "label",
+                        "image_rotation": 0,
+                        "original_width": 2048,
+                        "original_height": 1536
+                    }
+                ]
+            }
+        ]
+    }
+]

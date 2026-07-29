@@ -1,0 +1,12 @@
+# YOLO 학습·추론·전처리 (Python 3.10+ 권장)
+# GPU 사용 시 CUDA에 맞는 torch는 https://pytorch.org 안내를 우선하세요.
+#   pip install -r requirements.txt
+
+ultralytics>=8.3.0
+torch>=2.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0
+pillow>=10.0.0
+pandas>=2.0.0

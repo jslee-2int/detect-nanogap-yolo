@@ -1,0 +1,5 @@
+# Label Studio 전용 (YOLO 환경과 별도 venv 권장)
+#   pip install -r requirements-labelstudio.txt
+#   label-studio
+
+label-studio>=1.13.0
