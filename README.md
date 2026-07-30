@@ -1,5 +1,7 @@
 # Label Studio · YOLO 나노갭(nanogap) 검출 워크스페이스
 
+**한국어** | [English](README.en.md)
+
 SEM(주사전자현미경) 이미지에서 **작고 많은 단일 클래스 `nanogap`** 을 검출하기 위한 워크스페이스입니다.  
 **Ultralytics YOLO11** 로 학습·추론하고, 필요 시 **Label Studio** 사각형 라벨과 연동합니다.
 
