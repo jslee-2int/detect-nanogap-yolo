@@ -7,6 +7,9 @@ SEM(주사전자현미경) 이미지에서 **작고 많은 단일 클래스 `nan
 
 원본 SEM은 해상도가 크고 객체가 작기 때문에, **이미지를 타일로 나눈 뒤(split)** 라벨링·학습·추론하는 흐름을 기본으로 합니다.
 
+> **관련 프로젝트:** 이 저장소는 [Nano-Particle-Detector](https://github.com/jslee-2int/Nano-Particle-Detector) 의 **학습(트레이닝) 워크스페이스**입니다.  
+> 여기서 만든 YOLO 가중치(`best.pt` 등)를 해당 저장소의 PyQt6 GUI·추론 파이프라인에 넣어 사용합니다.
+
 > **보안 안내:** 이 GitHub 저장소에는 **SEM 이미지·데이터셋·학습 가중치(`*.pt`)·`runs/` 산출물**을 포함하지 않습니다.  
 > 로컬에서 `raw_img/`, `datasets/`, 모델 파일을 준비한 뒤 사용하세요. 제외 규칙은 `.gitignore`를 참고합니다.
 

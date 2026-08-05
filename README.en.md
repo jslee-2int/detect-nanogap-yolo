@@ -7,6 +7,9 @@ Train and run inference with **Ultralytics YOLO11**, and optionally sync rectang
 
 Raw SEM frames are large while targets are tiny, so the default flow is to **tile (split) images** before labeling, training, and inference.
 
+> **Related project:** This repository is the **training workspace** for [Nano-Particle-Detector](https://github.com/jslee-2int/Nano-Particle-Detector).  
+> Weights produced here (`best.pt`, etc.) are used by that project's PyQt6 GUI and inference pipeline.
+
 > **Security note:** This GitHub repository does **not** include SEM images, datasets, model weights (`*.pt`), or `runs/` artifacts.  
 > Prepare `raw_img/`, `datasets/`, and model files locally. See `.gitignore` for exclusion rules.
 
